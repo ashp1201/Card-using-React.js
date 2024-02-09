@@ -1,0 +1,66 @@
+.card_outer_body
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.card_inner_body{
+    display: flex;
+    width: 400px;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+}
+
+.card_inner_body_left
+{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card_inner_body_left_img{
+    border-radius: 100%;
+}
+
+
+.card_inner_body_right{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+
+}
+
+.card_inner_body_left_name{
+    width:80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.card_inner_body_right_gender{
+    text-align: start;
+}
+
+.card_inner_body_right_phoneno{
+    text-align: start;
+}
+
+.card_inner_body_right_phoneno p{
+    text-align: start;
+}
+
